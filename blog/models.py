@@ -31,9 +31,9 @@ class Post(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     class Meta:
-        ordering = ['-id']
+        ordering = ['-id'] #'-'붙이면 내림차순 정렬(최근 것부터 보여줌)
 
-    def __str__(self):
+    def __str__(self):   #title이 제목값으로 보여지도록 처리함
         return self.title
 
     def get_absolute_url(self):
