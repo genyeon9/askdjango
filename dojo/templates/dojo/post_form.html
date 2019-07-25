@@ -1,0 +1,7 @@
+<form action="" method="post">
+    {% csrf_token %}
+    <table>
+        {{ form.as_table }} <!--as_table은 form의 오류정보를 함께 보여줌-->
+    </table>
+    <input type="submit">
+</form>
