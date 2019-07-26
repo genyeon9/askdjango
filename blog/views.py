@@ -40,3 +40,17 @@ def post_new(request):
     return render(request, 'blog/post_form.html', {
         'form': form,
     })
+
+def post_edit(request, id):
+    post = get_object_or_404(Post, id=id)
+
+    if request.method == 'POST':
+        form = PostForm(request.POST, request.FILES, instance=post) #PostForm에서 모델을 Post로 지정해주었기 때문에 form은 PostForm의 인스턴스이자 Post의 인스턴스?
+        if form.is_valid():
+            post = form.save()
+            return redirect(post) #Post 모델에 get_absolute_url 함수를 정의했으므로 인스턴스를 넣어주기만 해도 url을 추적할 수 있다
+    else:                         #따라서 post_detail에 쉽게 접근 가능
+        form = PostForm(instance=post)
+    return render(request, 'blog/post_form.html', {
+        'form': form,
+    })
