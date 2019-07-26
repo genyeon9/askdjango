@@ -23,4 +23,7 @@ class PostForm(forms.ModelForm): #ModelForm은 위와 같은 save함수의 기�
     class Meta:
         model = Post
         #fields = '__all__' #모델의 모든 필드값을 Form의 필드값으로 지정
-        fields = ['title', 'content']
+        fields = ['title', 'content', 'user_agent']
+        widget = {
+            'user_agent': forms.HiddenInput,
+        }
