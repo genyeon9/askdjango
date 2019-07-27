@@ -2,6 +2,7 @@ from django.http import Http404
 from django.shortcuts import render, get_object_or_404, redirect
 from . models import Post
 from .forms import PostForm
+from django.contrib import messages
 
 # Create your views here.
 
@@ -34,6 +35,7 @@ def post_new(request):
         form = PostForm(request.POST, request.FILES) #PostForm에서 모델을 Post로 지정해주었기 때문에 form은 PostForm의 인스턴스이자 Post의 인스턴스?
         if form.is_valid():
             post = form.save()
+            messages.success(request, '새 포스팅을 저장했습니다.')
             return redirect(post) #Post 모델에 get_absolute_url 함수를 정의했으므로 인스턴스를 넣어주기만 해도 url을 추적할 수 있다
     else:                         #따라서 post_detail에 쉽게 접근 가능
         form = PostForm()
@@ -48,6 +50,7 @@ def post_edit(request, id):
         form = PostForm(request.POST, request.FILES, instance=post) #PostForm에서 모델을 Post로 지정해주었기 때문에 form은 PostForm의 인스턴스이자 Post의 인스턴스?
         if form.is_valid():
             post = form.save()
+            messages.success(request, '포스팅이 수정되었습니다.')
             return redirect(post) #Post 모델에 get_absolute_url 함수를 정의했으므로 인스턴스를 넣어주기만 해도 url을 추적할 수 있다
     else:                         #따라서 post_detail에 쉽게 접근 가능
         form = PostForm(instance=post)
