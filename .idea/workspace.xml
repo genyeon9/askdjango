@@ -7,11 +7,9 @@
       <change afterPath="$PROJECT_DIR$/../django_session1/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../django_session1/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../django_session1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice1/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice1/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice1/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice1/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice1/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/django-admin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,18 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dojo/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,11 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice1/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="132" column="51" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
+            <state relative-caret-position="216">
+              <caret line="135" column="44" selection-start-line="135" selection-start-column="44" selection-end-line="135" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,7 +69,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice1/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-430" />
+            <state relative-caret-position="361">
+              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -126,7 +126,6 @@
         <option value="$PROJECT_DIR$/blog/templates/blog/post_detail.html" />
         <option value="$PROJECT_DIR$/dojo/admin.py" />
         <option value="$PROJECT_DIR$/dojo/views.py" />
-        <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/dojo/migrations/0003_gameuser.py" />
         <option value="$PROJECT_DIR$/dojo/models.py" />
         <option value="$PROJECT_DIR$/dojo/forms.py" />
@@ -139,7 +138,9 @@
         <option value="$PROJECT_DIR$/practice1/templates/layout.html" />
         <option value="$PROJECT_DIR$/blog/static/blog/style.css" />
         <option value="$PROJECT_DIR$/practice1/static/style.css" />
+        <option value="$PROJECT_DIR$/practice1/urls.py" />
         <option value="$PROJECT_DIR$/practice1/settings.py" />
+        <option value="$PROJECT_DIR$/blog/models.py" />
       </list>
     </option>
   </component>
@@ -170,32 +171,7 @@
             <path>
               <item name="askdjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="askdjango" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="askdjango" type="b2602c69:ProjectViewProjectNode" />
-              <item name="askdjango" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="askdjango" type="b2602c69:ProjectViewProjectNode" />
-              <item name="askdjango" type="462c0819:PsiDirectoryNode" />
               <item name="practice1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="askdjango" type="b2602c69:ProjectViewProjectNode" />
-              <item name="askdjango" type="462c0819:PsiDirectoryNode" />
-              <item name="practice1" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="askdjango" type="b2602c69:ProjectViewProjectNode" />
-              <item name="askdjango" type="462c0819:PsiDirectoryNode" />
-              <item name="practice1" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,18 +224,17 @@
       <workItem from="1564194477322" duration="223000" />
       <workItem from="1564212180691" duration="5509000" />
       <workItem from="1564287108961" duration="21000" />
-      <workItem from="1564623343498" duration="1735000" />
+      <workItem from="1564623343498" duration="2970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24353000" />
+    <option name="totallyTimeSpent" value="25588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="760" y="0" width="784" height="832" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30991736" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30991736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -273,7 +248,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -328,16 +303,6 @@
     <entry file="file://$PROJECT_DIR$/dojo/migrations/0004_auto_20190726_1550.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-93" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dojo/views.py">
@@ -447,13 +412,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practice1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430" />
+        <state relative-caret-position="361">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practice1/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="132" column="51" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
+        <state relative-caret-position="216">
+          <caret line="135" column="44" selection-start-line="135" selection-start-column="44" selection-end-line="135" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
