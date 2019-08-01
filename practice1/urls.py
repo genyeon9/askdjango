@@ -14,6 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.conf import settings
+from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include, re_path
 from django.shortcuts import redirect
@@ -31,6 +32,8 @@ urlpatterns = [
     #namespace 지정 후 각각의 urls.py에서 app_name도 지정해주어야 함
     #name이 중복되는 경우를 대비해 namespace가 필요함
 ]
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG: #html 페이지에 body 태그를 써야 함
     import debug_toolbar
