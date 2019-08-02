@@ -3,6 +3,8 @@ from django.db import models
 from django.forms import ValidationError
 from django.conf import settings
 from django.urls import reverse
+from imagekit.models import ProcessedImageField
+from imagekit.processors import Thumbnail
 
 # Create your models here.
 
@@ -21,7 +23,12 @@ class Post(models.Model):
     title = models.CharField(max_length=100, verbose_name='제목',
         help_text='포스팅 제목을 입력해주세요. 최대 100자 내외.') #길이 제한 있는 문자열
     content = models.TextField(verbose_name='내용') #길이 제한 없는 문자열
-    photo = models.ImageField(blank=True, upload_to='blog/post/%Y/%m/%d') #업로드 파일을 디렉토리별 시간대별로 관리함
+
+    photo = ProcessedImageField(blank=True, upload_to='blog/post/%Y/%m/%d',
+                                processors=[Thumbnail(300, 300)],
+                                format='JPEG',
+                                options={'quality': 60}) #업로드 파일을 디렉토리별 시간대별로 관리함
+
     tags = models.CharField(max_length=100, blank=True)
     lnglat = models.CharField(max_length=50, blank=True, help_text='경도/위도 포맷으로 입력',
         validators=[lnglat_validator],
