@@ -7,9 +7,7 @@
       <change afterPath="$PROJECT_DIR$/../django_session1/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../django_session1/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../django_session1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views_cbv.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views_cbv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,19 +53,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/views_cbv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+            <state relative-caret-position="266">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding>
-                <element signature="e#0#77#0" expanded="true" />
+                <element signature="e#0#89#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_confirm_delete.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
@@ -172,8 +170,8 @@
         <option value="$PROJECT_DIR$/dojo/urls.py" />
         <option value="$PROJECT_DIR$/dojo/views.py" />
         <option value="$PROJECT_DIR$/blog/urls.py" />
-        <option value="$PROJECT_DIR$/blog/views_cbv.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/post_confirm_delete.html" />
+        <option value="$PROJECT_DIR$/blog/views_cbv.py" />
       </list>
     </option>
   </component>
@@ -278,12 +276,12 @@
       <workItem from="1564795186093" duration="50000" />
       <workItem from="1564801467436" duration="852000" />
       <workItem from="1564816514589" duration="1275000" />
-      <workItem from="1564878785649" duration="5692000" />
+      <workItem from="1564878785649" duration="6322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43939000" />
+    <option name="totallyTimeSpent" value="44569000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="760" y="0" width="784" height="832" extended-state="0" />
@@ -519,16 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views_cbv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/blog/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -550,6 +538,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views_cbv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#89#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
