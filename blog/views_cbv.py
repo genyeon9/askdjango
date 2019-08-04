@@ -1,6 +1,6 @@
 from django.views.generic import CreateView, ListView, DetailView, UpdateView, DeleteView
 from . models import Post
-from django.core.urlresolvers import reverse_lazy
+from django.urls import reverse_lazy
 
 post_list = ListView.as_view(model=Post, paginate_by=10)
 

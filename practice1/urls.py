@@ -27,7 +27,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls', namespace='blog')),
     path('dojo/', include('dojo.urls', namespace='dojo')),
-    path('accounts/', include('accounts.urls', namespace='accounts')),
+    path('accounts/', include('accounts.urls')),
     path('shop/', include('shop.urls', namespace='shop')),
     #namespace 지정 후 각각의 urls.py에서 app_name도 지정해주어야 함
     #name이 중복되는 경우를 대비해 namespace가 필요함
